@@ -1,0 +1,16 @@
+{
+  "$schema": "[suspicious link removed]",
+  "title": "FixGeoMCPToolSpecs",
+  "version": "2026.11",
+  "architect": "Fabio Yocco",
+  "tools": [
+    {
+      "name": "verify_rag_heartbeat",
+      "method": "eth_call",
+      "targetContract": "0x3b2Cd2c620976826F1C98CDdBb20C40AED6c0B6B",
+      "function": "isRAGActive(address)",
+      "latencyTarget": "<50ms",
+      "cost": "0 gas"
+    }
+  ]
+}
